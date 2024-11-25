@@ -243,7 +243,7 @@ def make_question(request: TextRequest):
     mainText = request.mainText
 
     response = {}
-    # 5번 시도
+    # 7번 시도
     for _ in range(7):
         logging.info("GET LLaMA Question")
         try:
